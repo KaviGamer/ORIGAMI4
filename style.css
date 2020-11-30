@@ -1,0 +1,112 @@
+body {
+margin: 0px;
+background-color: #f7f2f2;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    background-color: #000000;
+    padding: 15px;
+    font-size: 10px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    padding-left: 250px;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+}
+
+.origami{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border-radius: 2px;
+    background-color: #ffffff;
+    /* padding: 500px;
+    /* width: 310px; */
+    font-family: fantasy;
+    position: relative;
+}
+
+.origami p {
+    position: absolute;
+    top : 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+
+.item p {
+    opacity: 0;
+}
+
+.item:hover p {
+    opacity: 1;
+}
+
+.item:hover img {
+    transform: scale(1.2);
+}
+
+
+.camel{
+    border: solid;
+    color: rgb(252, 113, 0);
+}
+
+.camel:hover img{
+    transform: scale(1.3);
+}
+
+.chameleon{
+    border: solid;
+    color: rgb(252, 113, 0);
+}
+
+.chameleon:hover img{
+    transform: scale(1.3);
+}
+
+.cicada{
+    border: solid;
+    color: rgb(252, 113, 0);
+}
+
+.cicada:hover img{
+    transform: scale(1.3);
+}
+
+.panda{
+    border: solid;
+    color: rgb(252, 113, 0);
+}
+
+.panda:hover img{
+    transform: scale(1.3);
+}
+
+.pigeon{
+    border: solid;
+    color: rgb(252, 113, 0);
+}
+
+.pigeon:hover img{
+    transform: scale(1.3);
+}
+
+.teddy{
+    border: solid;
+    color: rgb(252, 113, 0);
+}
+
+.teddy:hover img{
+    transform: scale(1.3);
+}
